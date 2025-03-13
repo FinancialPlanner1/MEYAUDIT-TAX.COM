@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,16 +30,16 @@
         section h2 {
             color: #006f73;
         }
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        li {
-            background: #006f73;
+        button {
+            background-color: #006f73;
             color: white;
-            margin: 5px 0;
-            padding: 8px;
+            padding: 10px 20px;
+            border: none;
             border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #004f53;
         }
         footer {
             background-color: #222;
@@ -49,22 +48,18 @@
             padding: 20px 0;
             margin-top: 30px;
         }
-        footer a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>William Meyer</h1>
-        <p>Financial Planner | BCom Business Management</p>
+        <h1>Personal Profile</h1>
+        <p>Authorised by Sanlam | Lonfin Group</p>
     </header>
 
     <section class="about">
         <h2>About Me</h2>
-        <p>I’m William Meyer, a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
+        <p>I am a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
     </section>
 
     <section class="qualifications">
@@ -76,19 +71,33 @@
         </ul>
     </section>
 
-    <section class="services">
-        <h2>Services Offered</h2>
-        <ul>
-            <li>Investment Solutions</li>
-            <li>Retirement Planning</li>
-            <li>Insurance Solutions</li>
-            <li>Estate and Legacy Planning</li>
-            <li>Business Financial Planning</li>
-        </ul>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
+        <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
+    </section>
+
+    <section class="book-meeting">
+        <h2>Book a Meeting</h2>
+        <form action="#" method="post">
+            <label>Name and Surname:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Contact Details:</label><br>
+            <input type="text" name="contact" required><br><br>
+
+            <label>Preferred Date:</label><br>
+            <input type="date" name="date" required><br><br>
+
+            <label>Preferred Time:</label><br>
+            <input type="time" name="time" required><br><br>
+
+            <button type="submit">Book Meeting</button>
+        </form>
     </section>
 
     <footer>
-        <p>Disclaimer: Sanlam Life Insurance Limited is a Licensed Financial Services Provider. The information provided is for general information purposes only and does not constitute financial advice. For personalized advice, please contact me directly.</p>
+        <p>Disclaimer: Sanlam Life Insurance Limited is a Licensed Financial Services Provider.</p>
     </footer>
 
 </body>
