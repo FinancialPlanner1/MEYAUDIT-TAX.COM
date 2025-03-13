@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile</title>
+    <title>Financial Planner - Personal Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,12 +13,12 @@
         header {
             background-color: #006f73;
             color: white;
-            padding: 10px 0;
+            padding: 20px;
             text-align: center;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2em;
         }
         section {
             padding: 20px;
@@ -29,6 +29,19 @@
         }
         section h2 {
             color: #006f73;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .form-group {
+            margin: 10px 0;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
         }
         button {
             background-color: #006f73;
@@ -48,27 +61,23 @@
             padding: 20px 0;
             margin-top: 30px;
         }
+        footer a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Personal Profile</h1>
-        <p>Authorised by Sanlam | Lonfin Group</p>
+        <h1>Financial Planner - Personal Profile</h1>
+        <p>Authorised by Sanlam | Lonfin MOB</p>
     </header>
 
     <section class="about">
         <h2>About Me</h2>
-        <p>I am a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
-    </section>
-
-    <section class="qualifications">
-        <h2>Qualifications</h2>
-        <ul>
-            <li>BCom in Business Management</li>
-            <li>2 Years of Experience in Financial Planning</li>
-            <li>Authorised Financial Planner at Sanlam</li>
-        </ul>
+        <p>I’m a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
+        <p>BCom in Business Management</p>
     </section>
 
     <section class="contact-info">
@@ -80,24 +89,31 @@
     <section class="book-meeting">
         <h2>Book a Meeting</h2>
         <form action="#" method="post">
-            <label>Name and Surname:</label><br>
-            <input type="text" name="name" required><br><br>
-
-            <label>Contact Details:</label><br>
-            <input type="text" name="contact" required><br><br>
-
-            <label>Preferred Date:</label><br>
-            <input type="date" name="date" required><br><br>
-
-            <label>Preferred Time:</label><br>
-            <input type="time" name="time" required><br><br>
-
+            <div class="form-group">
+                <label for="name">Name and Surname</label>
+                <input type="text" id="name" name="name" placeholder="Your Name and Surname" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact Details</label>
+                <input type="text" id="contact" name="contact" placeholder="Your Contact Details" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
             <button type="submit">Book Meeting</button>
         </form>
     </section>
 
     <footer>
-        <p>Disclaimer: Sanlam Life Insurance Limited is a Licensed Financial Services Provider.</p>
+        <p>Connect with me: 
+            <a href="https://www.sanlam.co.za" target="_blank">Sanlam Website</a> |
+            <a href="https://www.linkedin.com/in/william-meyer" target="_blank">LinkedIn</a>
+        </p>
     </footer>
 
 </body>
