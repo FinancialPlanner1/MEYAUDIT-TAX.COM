@@ -1,69 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Meyer - Digital Business Card</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            color: #333;
-        }
-        .card {
-            background-color: #fff;
-            border-radius: 10px;
-            width: 300px;
-            margin: 50px auto;
-            padding: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .card img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            border: 3px solid #333;
-        }
-        .card h1 {
-            font-size: 24px;
-            margin-top: 10px;
-            color: #0077cc;
-        }
-        .card h2 {
-            font-size: 18px;
-            color: #555;
-        }
-        .card p {
-            font-size: 14px;
-            color: #555;
-            margin: 10px 0;
-        }
-        .card a {
-            text-decoration: none;
-            color: #0077cc;
-        }
-        .card .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0077cc;
-            color: #fff;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1>William Meyer</h1>
-        <h2>Financial Planner at Lonfin Group <br> Authorised by Sanlam</h2>
-        
-        <p><strong>Email:</strong> w.meyer@sanlam4u.co.za</p>
-        <p><strong>Cell:</strong> +27 63 422 9601</p>
-   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,7 +12,7 @@
             color: #333;
         }
         .container {
-            width: 60%;
+            width: 80%; /* Increased width to 80% */
             margin: 20px auto;
             background: #fff;
             padding: 20px;
