@@ -8,7 +8,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #006f73; /* Sanlam Blue Background */
             display: flex;
             justify-content: center;
             align-items: center;
