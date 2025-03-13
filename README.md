@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Meyer | Financial Planner</title>
@@ -13,22 +10,25 @@
             color: #333;
         }
         .container {
-            width: 80%; /* Increased width to 80% */
-            margin: 20px auto;
+            width: 90%; /* Increased width to 90% */
+            max-width: 1200px; /* Added max-width for larger screens */
+            margin: 30px auto;
             background: #fff;
-            padding: 20px;
-            box-shadow: 0px 0px 10px #aaa;
-            border-radius: 8px;
+            padding: 40px; /* Increased padding for more space */
+            box-shadow: 0px 0px 15px #aaa;
+            border-radius: 10px;
         }
         h1, h2, h3 {
             color: #005B9F;
+            margin-bottom: 20px;
         }
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
             border-radius: 5px;
+            margin-bottom: 30px;
         }
         .contact-info a {
             color: white;
@@ -36,34 +36,47 @@
             font-weight: bold;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px; /* Increased margin between sections */
         }
         .meeting-form {
             background: #e6f2ff;
-            padding: 15px;
+            padding: 20px;
             border-radius: 5px;
+            margin-bottom: 30px;
         }
         label {
             font-weight: bold;
         }
         input, textarea {
             width: 100%;
-            padding: 8px;
-            margin: 5px 0;
+            padding: 12px; /* Increased padding for inputs */
+            margin: 10px 0; /* Added margin for inputs */
             border: 1px solid #ccc;
             border-radius: 4px;
         }
         button {
             background: #005B9F;
             color: white;
-            padding: 10px;
+            padding: 15px;
             border: none;
             cursor: pointer;
             width: 100%;
             border-radius: 4px;
+            font-size: 16px;
         }
         button:hover {
             background: #00407a;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .section h3 {
+            margin-top: 20px;
+            color: #003b64;
         }
     </style>
 </head>
