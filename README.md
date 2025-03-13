@@ -1,101 +1,49 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Meyer - Financial Planner</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #006f73; /* Sanlam Blue Background */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 600px;
-            width: 100%;
-        }
-        h1, h2, h3 {
-            color: #006f73;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-        }
-        button {
-            background-color: #006f73;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-        button:hover {
-            background-color: #004f53;
-        }
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-        .logo {
-            margin-bottom: 20px;
-        }
-        .logo img {
-            width: 150px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Sanlam Logo -->
-        <div class="logo">
-            <img src="sanlam-logo.png" alt="Sanlam Logo">
+     <li>Business Assurance</li>
+                <li>Key Person Insurance</li>
+                <li>Buy-and-Sell Agreements</li>
+            </ul>
         </div>
 
-        <h1>William Meyer</h1>
-        <h2>Financial Planner | BCom Business Management</h2>
-        <h3>Authorised by Sanlam | Lonfin MOB</h3>
+        <div class="section">
+            <h2>Location</h2>
+            <p>Find me at: <strong>1st Floor, Century Way, The Colosseum, Cape Town, South Africa</strong></p>
+        </div>
 
-        <section>
-            <h2>About Me</h2>
-            <p>
-                I’m a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. 
-                My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.
-            </p>
-        </section>
-
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
-            <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
-            <p>Connect with me: 
-                <a href="https://www.sanlam.co.za" target="_blank">Sanlam Website</a> | 
-                <a href="https://www.linkedin.com/in/william-meyer" target="_blank">LinkedIn</a>
-            </p>
-        </section>
-
-        <section>
+        <div class="section meeting-form">
             <h2>Book a Meeting</h2>
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Name and Surname" required>
-                <input type="text" name="contact" placeholder="Contact Details" required>
-                <input type="date" name="date" required>
-                <input type="time" name="time" required>
-                <button type="submit">Book Meeting</button>
+            <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required>
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="Surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="Contact" required>
+
+                <label for="message">Additional Details (Optional):</label>
+                <textarea id="message" name="Message" rows="4"></textarea>
+
+                <!-- New fields for selecting the date and time -->
+                <label for="meeting-date">Preferred Meeting Day:</label>
+                <input type="date" id="meeting-date" name="Meeting Day" required>
+
+                <label for="meeting-time">Preferred Time:</label>
+                <input type="time" id="meeting-time" name="Meeting Time" required>
+
+                <button type="submit">Send Meeting Request</button>
             </form>
-        </section>
+        </div>
+
+        <div class="section">
+            <h2>Connect with Me</h2>
+            <p><a href="https://www.sanlam.com/" target="_blank">Visit Sanlam's Website</a></p>
+            <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank">Connect on LinkedIn</a></p>
+        </div>
     </div>
+
 </body>
 </html>
