@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Planner - Personal Profile</title>
+    <title>Financial Planner | Lonfin MOB Authorised by S</title
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -70,14 +70,13 @@
 <body>
 
     <header>
-        <h1>Financial Planner - Personal Profile</h1>
-        <p>Authorised by Sanlam | Lonfin MOB</p>
+        <h1>Financial Planner </h1>
+        <p>(Bcom Business Management)</p>
     </header>
 
     <section class="about">
         <h2>About Me</h2>
         <p>I’m a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
-        <p>BCom in Business Management</p>
     </section>
 
     <section class="contact-info">
