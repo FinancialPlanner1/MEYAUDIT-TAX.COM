@@ -49,10 +49,21 @@
             color: #1e90ff;
             text-decoration: none;
         }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 150px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Sanlam Logo -->
+        <div class="logo">
+            <img src="sanlam-logo.png" alt="Sanlam Logo">
+        </div>
+
         <h1>William Meyer</h1>
         <h2>Financial Planner | BCom Business Management</h2>
         <h3>Authorised by Sanlam | Lonfin MOB</h3>
