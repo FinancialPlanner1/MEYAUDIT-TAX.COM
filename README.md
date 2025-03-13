@@ -58,7 +58,6 @@
 </head>
 <body>
     <div class="card">
-        <!-- Profile Image -->
         <img src="https://media.licdn.com/dms/image/D4D35AQHhbg7ljs_hnQ/profile-framedphoto-shrink_80_80/0/1672955601482?e=1679596800&v=beta&t=eBa4aHp6s9q02Krg-xt4y44cO6-YUvl9qvBaNJ0o6h8" alt="William Meyer">
         
         <h1>William Meyer</h1>
