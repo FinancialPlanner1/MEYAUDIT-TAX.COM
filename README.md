@@ -1,4 +1,3 @@
-# William Meyer-Financial Planner
 <html lang="en">
 <head>
     <meta charset="UTF-8">
