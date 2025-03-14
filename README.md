@@ -1,118 +1,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Meyer - Financial Planner</title>
     <style>
-        /* General Reset and Body Styling */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
             color: #333;
-            line-height: 1.6;
         }
-
-        /* Container that holds all content */
         .container {
             width: 60%;
             margin: 50px auto;
             background: #fff;
-            padding: 30px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
+            text-align: center;
         }
-
-        /* Header and Subheader Styles */
         h1, h2 {
             color: #005B9F;
-            font-weight: bold;
-            margin-bottom: 10px;
         }
-
-        /* Contact Info Section Styling */
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             border-radius: 5px;
-            margin-bottom: 20px;
         }
-
         .contact-info a {
             color: white;
             text-decoration: none;
             font-weight: bold;
         }
-
-        /* General Section Styling */
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            text-align: left;
         }
-
         .section ul {
             list-style-type: none;
             padding: 0;
         }
-
         .section li {
             margin-bottom: 10px;
         }
-
-        /* Button Styling */
         .button {
             display: inline-block;
-            padding: 12px 20px;
+            padding: 10px 20px;
             background-color: #005B9F;
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
-            font-weight: bold;
-            margin-top: 15px;
-            transition: background-color 0.3s ease;
+            margin-top: 20px;
         }
-
         .button:hover {
             background-color: #00407a;
         }
-
-        /* Meeting Form Styling */
         .meeting-form {
             background: #e6f2ff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 5px;
         }
-
-        .meeting-form label {
+        label {
             font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
         }
-
-        .meeting-form input,
-        .meeting-form textarea {
+        input, textarea {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
+            padding: 8px;
+            margin: 5px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
-        .meeting-form button {
+        button {
             background: #005B9F;
             color: white;
-            padding: 12px;
+            padding: 10px;
             border: none;
             cursor: pointer;
             width: 100%;
             border-radius: 4px;
-            transition: background-color 0.3s ease;
         }
-
-        .meeting-form button:hover {
+        button:hover {
             background: #00407a;
         }
     </style>
@@ -120,12 +89,9 @@
 <body>
 
     <div class="container">
-        <!-- Header Section -->
-        <header>
-            <h1>William Meyer</h1>
-            <h2>Financial Planner</h2>
-            <hr>
-        </header>
+        <h1>William Meyer</h1>
+        <h2>Financial Planner</h2>
+        <hr>
 
         <!-- Contact Info Section -->
         <div class="contact-info">
@@ -155,13 +121,11 @@
             <h2>Services Offered</h2>
             <ul>
                 <li>Life Insurance</li>
-                <li>Retirement Annuity</li>
-                <li>Investment Advice</li>
-                <li>Will & Estate Planning</li>
+                <li>Retirement Planning</li>
                 <li>Business Insurance</li>
-                <li>Unit Trusts</li>
-                <li>Tax-Free Savings Accounts</li>
-               
+                <li>Will & Estate Planning</li>
+                <li>Investment Advice</li>
+           
             </ul>
         </div>
 
@@ -171,7 +135,7 @@
             <p>Find me at: <strong>1st Floor, Century Way, The Colosseum, Cape Town, South Africa</strong></p>
         </div>
 
-        <!-- Book a Meeting Form Section -->
+        <!-- Book a Meeting Form -->
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
