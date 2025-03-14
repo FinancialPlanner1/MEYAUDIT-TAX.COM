@@ -20,21 +20,10 @@
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
             text-align: center;
+            position: relative;
         }
         h1, h2 {
             color: #005B9F;
-        }
-        .header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-        .header img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            margin-right: 20px;
         }
         .contact-info {
             background: #005B9F;
@@ -98,19 +87,39 @@
         button:hover {
             background: #00407a;
         }
+        .profile {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #005B9F;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .profile a {
+            color: white;
+            text-decoration: none;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Header Section with Profile Image and Name -->
-        <div class="header">
-            <img src="https://media.licdn.com/dms/image/D4D35AQHhbg7ljs_hnQ/profile-framedphoto-shrink_80_80/0/1672955601482?e=1679596800&v=beta&t=eBa4aHp6s9q02Krg-xt4y44cO6-YUvl9qvBaNJ0o6h8" alt="William Meyer">
-            <div>
-                <h1>William Meyer</h1>
-                <h2>Financial Planner</h2>
-            </div>
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="your-profile-image.jpg" alt="William Meyer">
+            <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank">View Profile</a></p>
         </div>
+
+        <h1>William Meyer</h1>
+        <h2>Financial Planner</h2>
+        <hr>
 
         <!-- Contact Info Section -->
         <div class="contact-info">
