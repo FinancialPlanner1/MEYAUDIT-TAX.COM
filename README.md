@@ -19,6 +19,7 @@
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
             text-align: center;
+            position: relative;
         }
         h1, h2 {
             color: #005B9F;
@@ -85,11 +86,31 @@
         button:hover {
             background: #00407a;
         }
+        .profile {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #005B9F;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
 
     <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="your-profile-image.jpg" alt="William Meyer">
+        </div>
+
         <h1>William Meyer</h1>
         <h2>Financial Planner at Lonfin MOB, authorised by Sanlam</h2>
         <hr>
@@ -129,6 +150,7 @@
                 <li>Business Insurance</li>
                 <li>Unit Trusts</li>
                 <li>Tax-Free Savings Accounts</li>
+               
             </ul>
         </div>
 
