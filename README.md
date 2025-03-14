@@ -2,30 +2,32 @@
 <head>
     <meta charset="UTF-8">
     <title>William Meyer - Financial Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif; /* Using the wider Roboto font */
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
             color: #333;
         }
         .container {
-            width: 1536px; /* Set the width to 1536px for 16-inch width */
+            width: 80%; /* Increased width to 80% for more spacious layout */
             margin: 50px auto;
             background: #fff;
-            padding: 20px;
-            box-shadow: 0px 0px 10px #aaa;
-            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
             text-align: center;
         }
         h1, h2 {
             color: #005B9F;
+            font-weight: 700; /* Slightly bolder font for titles */
         }
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 15px;
+            padding: 20px;
             text-align: center;
             border-radius: 5px;
         }
@@ -35,51 +37,57 @@
             font-weight: bold;
         }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px; /* Increased space between sections */
             text-align: left;
+            line-height: 1.6;
         }
         .section ul {
             list-style-type: none;
             padding: 0;
         }
         .section li {
-            margin-bottom: 10px;
+            margin-bottom: 15px; /* More space between items in the list */
         }
         .button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 25px;
             background-color: #005B9F;
             color: #fff;
-            border-radius: 5px;
+            border-radius: 8px;
             text-decoration: none;
-            margin-top: 20px;
+            margin-top: 30px;
+            font-weight: 600;
         }
         .button:hover {
             background-color: #00407a;
         }
         .meeting-form {
             background: #e6f2ff;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
         }
         label {
             font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
         }
         input, textarea {
             width: 100%;
-            padding: 8px;
-            margin: 5px 0;
+            padding: 12px;
+            margin: 8px 0;
             border: 1px solid #ccc;
-            border-radius: 4px;
+            border-radius: 6px;
+            font-size: 16px;
         }
         button {
             background: #005B9F;
             color: white;
-            padding: 10px;
+            padding: 12px;
             border: none;
             cursor: pointer;
             width: 100%;
-            border-radius: 4px;
+            border-radius: 6px;
+            font-size: 16px;
         }
         button:hover {
             background: #00407a;
