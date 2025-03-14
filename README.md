@@ -11,7 +11,7 @@
             color: #333;
         }
         .container {
-            width: 80%; /* Increased the width from 60% to 80% */
+            width: 90%; /* Increased the width to 90% for an even wider layout */
             margin: 50px auto;
             background: #fff;
             padding: 20px;
@@ -166,4 +166,3 @@
 
 </body>
 </html>
-
