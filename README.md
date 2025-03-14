@@ -1,34 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Meyer | Financial Planner</title>
+    <title>William Meyer - Financial Planner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            text-align: center;
             color: #333;
         }
         .container {
-            width: 90%; /* Increased width to 90% */
-            max-width: 1200px; /* Added max-width for larger screens */
-            margin: 30px auto;
+            width: 60%;
+            margin: 50px auto;
             background: #fff;
-            padding: 40px; /* Increased padding for more space */
-            box-shadow: 0px 0px 15px #aaa;
-            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px #aaa;
+            border-radius: 8px;
         }
-        h1, h2, h3 {
+        h1, h2 {
             color: #005B9F;
-            margin-bottom: 20px;
         }
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             border-radius: 5px;
-            margin-bottom: 30px;
         }
         .contact-info a {
             color: white;
@@ -36,47 +37,53 @@
             font-weight: bold;
         }
         .section {
-            margin-bottom: 30px; /* Increased margin between sections */
+            margin-bottom: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section li {
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #005B9F;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #00407a;
         }
         .meeting-form {
             background: #e6f2ff;
-            padding: 20px;
+            padding: 15px;
             border-radius: 5px;
-            margin-bottom: 30px;
         }
         label {
             font-weight: bold;
         }
         input, textarea {
             width: 100%;
-            padding: 12px; /* Increased padding for inputs */
-            margin: 10px 0; /* Added margin for inputs */
+            padding: 8px;
+            margin: 5px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
         button {
             background: #005B9F;
             color: white;
-            padding: 15px;
+            padding: 10px;
             border: none;
             cursor: pointer;
             width: 100%;
             border-radius: 4px;
-            font-size: 16px;
         }
         button:hover {
             background: #00407a;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .section h3 {
-            margin-top: 20px;
-            color: #003b64;
         }
     </style>
 </head>
@@ -84,25 +91,23 @@
 
     <div class="container">
         <h1>William Meyer</h1>
-        <h3>Financial Planner at Lonfin Group | Authorised by Sanlam</h3>
+        <h2>Financial Planner</h2>
         <hr>
 
+        <!-- Contact Info Section -->
         <div class="contact-info">
             <p><strong>Contact Me</strong></p>
             <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
             <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
         </div>
 
+        <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>I’m William Meyer, a driven individual who is dedicated and passionate about personal growth.  
-               I believe in the power of hard work, perseverance, and continuous learning to achieve success.  
-               Challenges motivate me, and I am always striving to push beyond my limits to grow and improve.  
-               My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions  
-               with confidence and determination. Success, for me, is not just about personal achievement but also about  
-               uplifting others and making a positive difference in the world.</p>
+            <p>I’m William Meyer, a passionate and dedicated financial planner who believes in hard work, perseverance, and continuous learning. I aim to help individuals and businesses make sound financial decisions that lead to long-term success. I thrive on challenges and always strive to provide valuable solutions that improve financial well-being.</p>
         </div>
 
+        <!-- Qualifications Section -->
         <div class="section">
             <h2>Qualifications</h2>
             <ul>
@@ -112,49 +117,25 @@
             </ul>
         </div>
 
+        <!-- Services Offered Section -->
         <div class="section">
             <h2>Services Offered</h2>
-            <h3>Investment Solutions</h3>
             <ul>
-                <li>Unit Trusts</li>
-                <li>Tax-Free Savings Accounts</li>
-                <li>Wealth and Portfolio Management</li>
-            </ul>
-
-            <h3>Retirement Planning</h3>
-            <ul>
-                <li>Retirement Annuities</li>
-                <li>Pension and Provident Funds</li>
-                <li>Preservation Funds</li>
-            </ul>
-
-            <h3>Insurance Solutions</h3>
-            <ul>
-                <li>Life Insurance</li>
-                <li>Disability Cover</li>
-                <li>Income Protection</li>
-                <li>Severe Illness Cover</li>
-            </ul>
-
-            <h3>Estate and Legacy Planning</h3>
-            <ul>
-                <li>Wills and Trusts</li>
-                <li>Estate Administration</li>
-            </ul>
-
-            <h3>Business Financial Planning</h3>
-            <ul>
-                <li>Business Assurance</li>
-                <li>Key Person Insurance</li>
-                <li>Buy-and-Sell Agreements</li>
+                <li>Investment Solutions</li>
+                <li>Retirement Planning</li>
+                <li>Insurance Solutions</li>
+                <li>Estate and Legacy Planning</li>
+                <li>Business Financial Planning</li>
             </ul>
         </div>
 
+        <!-- Location Section -->
         <div class="section">
             <h2>Location</h2>
             <p>Find me at: <strong>1st Floor, Century Way, The Colosseum, Cape Town, South Africa</strong></p>
         </div>
 
+        <!-- Book a Meeting Form -->
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
@@ -177,10 +158,11 @@
             </form>
         </div>
 
+        <!-- Connect with Me Section -->
         <div class="section">
             <h2>Connect with Me</h2>
-            <p><a href="https://www.sanlam.com/" target="_blank">Visit Sanlam's Website</a></p>
-            <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank">Connect on LinkedIn</a></p>
+            <p><a href="https://www.sanlam.com/" target="_blank" class="button">Visit Sanlam's Website</a></p>
+            <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
     </div>
 
