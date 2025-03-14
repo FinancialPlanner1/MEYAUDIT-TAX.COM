@@ -1,118 +1,101 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Meyer - Financial Planner</title>
     <style>
-        /* General Reset and Body Styling */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
             color: #333;
-            line-height: 1.6;
         }
-
-        /* Container that holds all content */
         .container {
             width: 60%;
             margin: 50px auto;
             background: #fff;
-            padding: 30px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
+            text-align: center;
         }
-
-        /* Header and Subheader Styles */
         h1, h2 {
             color: #005B9F;
-            font-weight: bold;
-            margin-bottom: 10px;
         }
-
-        /* Contact Info Section Styling */
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             border-radius: 5px;
-            margin-bottom: 20px;
         }
-
         .contact-info a {
             color: white;
             text-decoration: none;
             font-weight: bold;
         }
-
-        /* General Section Styling */
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+            text-align: left;
         }
-
         .section ul {
             list-style-type: none;
             padding: 0;
         }
-
         .section li {
             margin-bottom: 10px;
         }
-
-        /* Button Styling */
         .button {
             display: inline-block;
-            padding: 12px 20px;
+            padding: 10px 20px;
             background-color: #005B9F;
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
-            font-weight: bold;
-            margin-top: 15px;
-            transition: background-color 0.3s ease;
+            margin-top: 20px;
         }
-
         .button:hover {
             background-color: #00407a;
         }
-
-        /* Meeting Form Styling */
         .meeting-form {
             background: #e6f2ff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 5px;
         }
-
-        .meeting-form label {
+        label {
             font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
         }
-
-        .meeting-form input,
-        .meeting-form textarea {
+        input, textarea {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
+            padding: 8px;
+            margin: 5px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
-        .meeting-form button {
+        button {
             background: #005B9F;
             color: white;
-            padding: 12px;
+            padding: 10px;
             border: none;
             cursor: pointer;
             width: 100%;
             border-radius: 4px;
-            transition: background-color 0.3s ease;
         }
-
-        .meeting-form button:hover {
+        button:hover {
             background: #00407a;
         }
     </style>
@@ -120,12 +103,14 @@
 <body>
 
     <div class="container">
-        <!-- Header Section -->
-        <header>
-            <h1>William Meyer</h1>
-            <h2>Financial Planner</h2>
-            <hr>
-        </header>
+        <!-- Header Section with Profile Image and Name -->
+        <div class="header">
+            <img src="https://media.licdn.com/dms/image/D4D35AQHhbg7ljs_hnQ/profile-framedphoto-shrink_80_80/0/1672955601482?e=1679596800&v=beta&t=eBa4aHp6s9q02Krg-xt4y44cO6-YUvl9qvBaNJ0o6h8" alt="William Meyer">
+            <div>
+                <h1>William Meyer</h1>
+                <h2>Financial Planner</h2>
+            </div>
+        </div>
 
         <!-- Contact Info Section -->
         <div class="contact-info">
@@ -156,24 +141,11 @@
             <ul>
                 <li>Investment Solutions</li>
                 <li>Retirement Planning</li>
-                <li>Insurance Solutions</li>
+                <li>Life Insurance</li>
                 <li>Estate and Legacy Planning</li>
                 <li>Business Financial Planning</li>
-                <li>Unit Trusts</li>
+                <li>Unit Trusts Investments</li>
                 <li>Tax-Free Savings Accounts</li>
-                <li>Wealth and Portfolio Management</li>
-                <li>Retirement Annuities</li>
-                <li>Pension and Provident Funds</li>
-                <li>Preservation Funds</li>
-                <li>Life Insurance</li>
-                <li>Disability Cover</li>
-                <li>Income Protection</li>
-                <li>Severe Illness Cover</li>
-                <li>Wills and Trusts</li>
-                <li>Estate Administration</li>
-                <li>Business Assurance</li>
-                <li>Key Person Insurance</li>
-                <li>Buy-and-Sell Agreements</li>
             </ul>
         </div>
 
@@ -183,7 +155,7 @@
             <p>Find me at: <strong>1st Floor, Century Way, The Colosseum, Cape Town, South Africa</strong></p>
         </div>
 
-        <!-- Book a Meeting Form Section -->
+        <!-- Book a Meeting Form -->
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
