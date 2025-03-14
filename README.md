@@ -11,7 +11,7 @@
             color: #333;
         }
         .container {
-            width: 90%; /* Increased the width to 90% for an even wider layout */
+            width: 1536px; /* Set the width to 1536px for 16-inch width */
             margin: 50px auto;
             background: #fff;
             padding: 20px;
