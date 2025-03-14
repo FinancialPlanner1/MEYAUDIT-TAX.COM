@@ -10,7 +10,6 @@
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            text-align: center;
             color: #333;
         }
         .container {
@@ -20,6 +19,7 @@
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
+            text-align: center;
         }
         h1, h2 {
             color: #005B9F;
@@ -38,6 +38,7 @@
         }
         .section {
             margin-bottom: 20px;
+            text-align: left;
         }
         .section ul {
             list-style-type: none;
@@ -127,6 +128,25 @@
                 <li>Estate and Legacy Planning</li>
                 <li>Business Financial Planning</li>
             </ul>
+
+            <!-- Additional Services Added Below -->
+            <ul>
+                <li>Unit Trusts</li>
+                <li>Tax-Free Savings Accounts</li>
+                <li>Wealth and Portfolio Management</li>
+                <li>Retirement Annuities</li>
+                <li>Pension and Provident Funds</li>
+                <li>Preservation Funds</li>
+                <li>Life Insurance</li>
+                <li>Disability Cover</li>
+                <li>Income Protection</li>
+                <li>Severe Illness Cover</li>
+                <li>Wills and Trusts</li>
+                <li>Estate Administration</li>
+                <li>Business Assurance</li>
+                <li>Key Person Insurance</li>
+                <li>Buy-and-Sell Agreements</li>
+            </ul>
         </div>
 
         <!-- Location Section -->
@@ -161,7 +181,6 @@
         <!-- Connect with Me Section -->
         <div class="section">
             <h2>Connect with Me</h2>
-            <p><a href="https://www.sanlam.com/" target="_blank" class="button">Visit Sanlam's Website</a></p>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
     </div>
