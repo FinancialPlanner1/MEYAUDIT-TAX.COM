@@ -11,7 +11,7 @@
             color: #333;
         }
         .container {
-            width: 60%;
+            width: 80%; /* Increased the width from 60% to 80% */
             margin: 50px auto;
             background: #fff;
             padding: 20px;
@@ -162,13 +162,8 @@
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
-
-        <!-- Visit Sanlam Website Button -->
-        <div class="section">
-            <p><a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank" class="button">Visit Sanlam Website</a></p>
-        </div>
-        
     </div>
 
 </body>
 </html>
+
