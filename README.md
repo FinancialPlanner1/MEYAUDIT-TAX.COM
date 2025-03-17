@@ -1,33 +1,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner at LONFIN MOB authorized by Sanlam</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif; /* Using the wider Roboto font */
+            font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
             color: #333;
         }
         .container {
-            width: 80%; /* Increased width to 80% for more spacious layout */
+            width: 60%;
             margin: 50px auto;
             background: #fff;
-            padding: 30px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px #aaa;
+            border-radius: 8px;
             text-align: center;
         }
         h1, h2 {
             color: #005B9F;
-            font-weight: 700; /* Slightly bolder font for titles */
         }
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             border-radius: 5px;
         }
@@ -37,57 +35,51 @@
             font-weight: bold;
         }
         .section {
-            margin-bottom: 30px; /* Increased space between sections */
+            margin-bottom: 20px;
             text-align: left;
-            line-height: 1.6;
         }
         .section ul {
             list-style-type: none;
             padding: 0;
         }
         .section li {
-            margin-bottom: 15px; /* More space between items in the list */
+            margin-bottom: 10px;
         }
         .button {
             display: inline-block;
-            padding: 12px 25px;
+            padding: 10px 20px;
             background-color: #005B9F;
             color: #fff;
-            border-radius: 8px;
+            border-radius: 5px;
             text-decoration: none;
-            margin-top: 30px;
-            font-weight: 600;
+            margin-top: 20px;
         }
         .button:hover {
             background-color: #00407a;
         }
         .meeting-form {
             background: #e6f2ff;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 15px;
+            border-radius: 5px;
         }
         label {
             font-weight: bold;
-            margin-bottom: 8px;
-            display: block;
         }
         input, textarea {
             width: 100%;
-            padding: 12px;
-            margin: 8px 0;
+            padding: 8px;
+            margin: 5px 0;
             border: 1px solid #ccc;
-            border-radius: 6px;
-            font-size: 16px;
+            border-radius: 4px;
         }
         button {
             background: #005B9F;
             color: white;
-            padding: 12px;
+            padding: 10px;
             border: none;
             cursor: pointer;
             width: 100%;
-            border-radius: 6px;
-            font-size: 16px;
+            border-radius: 4px;
         }
         button:hover {
             background: #00407a;
@@ -111,7 +103,7 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>I’m William Meyer, a passionate and dedicated financial planner who believes in hard work, perseverance, and continuous learning. I aim to help individuals and businesses make sound financial decisions that lead to long-term success. I thrive on challenges and always strive to provide valuable solutions that improve financial well-being.</p>
+            <p>I’m a passionate and dedicated financial planner who believes in hard work, perseverance, and continuous learning. I aim to help individuals and businesses make sound financial decisions that lead to long-term success. I thrive on challenges and always strive to provide valuable solutions that improve financial well-being.</p>
         </div>
 
         <!-- Qualifications Section -->
@@ -133,6 +125,7 @@
                 <li>Business Insurance</li>
                 <li>Will & Estate Planning</li>
                 <li>Investment Advice</li>
+           
             </ul>
         </div>
 
