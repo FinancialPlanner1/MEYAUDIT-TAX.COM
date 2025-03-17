@@ -1,31 +1,7 @@
-<html>
-<head>
-    <title>Image at Top Left</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .top-left-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="top-left-image">
-        <img src="/mnt/data/Pic of ME.jpg" alt="Profile Picture" width="150">
-    </div>
-</body>
-</html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner</title>
+    <title>William Meyer - Financial Planner at LONFIN MOB authorized by Sanlam</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
