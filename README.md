@@ -86,3 +86,25 @@ const FinancialPlannerProfile = () => {
 };
 
 export default FinancialPlannerProfile;
+
+// To use this component, add it to your React project and import the necessary dependencies:
+// - Tailwind CSS for styling
+// - lucide-react for icons
+// - shadcn/ui for the Card component
+
+// Directory Structure:
+// src/
+// ├── components/
+// │   └── FinancialPlannerProfile.jsx
+// └── App.jsx (or wherever you wish to import and use the component)
+
+// Install Dependencies:
+// npm install lucide-react
+// npm install @shadcn/ui
+
+// Import and use the component in your App.jsx:
+// import FinancialPlannerProfile from './components/FinancialPlannerProfile';
+// function App() {
+//     return <FinancialPlannerProfile />;
+// }
+// export default App;
