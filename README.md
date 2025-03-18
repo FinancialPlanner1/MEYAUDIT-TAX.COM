@@ -49,17 +49,15 @@ const FinancialPlannerProfile = () => {
 
                     <Dropdown title="About Me">
                         <p>
-                            As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy 
-                            through personalised strategies and informed decision making. I focus on understanding each client’s 
-                            unique needs, offering clear actionable advice and building long-term plans for success.
+                            I help clients build wealth and create a lasting legacy through personalized strategies. I provide clear advice and long-term planning to empower clients with confidence and security.
                         </p>
                     </Dropdown>
 
                     <Dropdown title="Qualifications">
                         <ul className="list-disc pl-4">
                             <li>BCom in Business Management</li>
-                            <li>2 Years of Experience in the Financial Planning industry</li>
-                            <li>Authorised Financial Planner at Sanlam</li>
+                            <li>2 Years of Experience in the Financial Planning Industry</li>
+                            <li>Authorized Financial Planner at Sanlam</li>
                         </ul>
                     </Dropdown>
 
@@ -74,7 +72,7 @@ const FinancialPlannerProfile = () => {
                     </Dropdown>
 
                     <Dropdown title="Location">
-                        <p>Find me at: 1st Floor, Century Way, The Colosseum, Cape Town, South Africa</p>
+                        <p>1st Floor, Century Way, The Colosseum, Cape Town, South Africa</p>
                     </Dropdown>
 
                     <Dropdown title="Book a Meeting">
