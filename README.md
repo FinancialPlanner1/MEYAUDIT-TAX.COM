@@ -1,4 +1,3 @@
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
