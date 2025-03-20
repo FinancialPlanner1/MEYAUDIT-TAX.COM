@@ -23,7 +23,7 @@
     <section id="about" class="py-8 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="text-2xl font-bold mb-4">About Us</h2>
-            <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, we provide tailored solutions to clients across various sectors.</p>
+            <p>Our Services initially started out as accounting services in Strubensvalley, but have branched out Nationally in South Africa and even globally with our Canada and UK branches. We make use of on-line business tools as far as possible to ensure you have constant access to the information you need to run your business, from anywhere and on any device.</p>
             <p>Our team of certified auditors and financial specialists is dedicated to enhancing your organization's transparency, compliance, and operational efficiency.</p>
         </div>
     </section>
