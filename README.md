@@ -9,30 +9,30 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: white;
+            background-color: #ffffff;
             color: #333;
         }
         header {
-            background-color: #000;
-            color: #FFD700;
+            background-color: #003366; /* Dark Blue */
+            color: #FFD700; /* Yellow */
             padding: 20px;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #FFD700;
+            background-color: #003366; /* Dark Blue */
             padding: 10px;
         }
         nav a {
             margin: 0 15px;
-            color: #000;
+            color: #ffffff; /* White */
             text-decoration: none;
             font-weight: bold;
             text-transform: uppercase;
         }
         nav a:hover {
-            color: #fff;
+            color: #FFD700; /* Yellow */
         }
         section {
             padding: 20px;
@@ -44,8 +44,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h2, h3 {
-            background-color: #000;
-            color: #FFD700;
+            background-color: #003366; /* Dark Blue */
+            color: #FFD700; /* Yellow */
             padding: 10px;
             margin-top: 20px;
             border-radius: 4px;
@@ -53,7 +53,7 @@
             font-weight: bold;
         }
         footer {
-            background-color: #000;
+            background-color: #003366; /* Dark Blue */
             color: white;
             text-align: center;
             padding: 10px;
@@ -79,13 +79,13 @@
         }
         form button {
             padding: 10px;
-            background-color: #FFD700;
+            background-color: #FFD700; /* Yellow */
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
         form button:hover {
-            background-color: #000;
+            background-color: #003366; /* Dark Blue */
             color: white;
         }
         h2, h3, p {
@@ -99,8 +99,8 @@
             margin-bottom: 10px;
         }
         .category-header {
-            background-color: #FFD700;
-            color: #000;
+            background-color: #FFD700; /* Yellow */
+            color: #003366; /* Dark Blue */
             padding: 10px;
             margin-top: 20px;
             border-radius: 4px;
@@ -108,7 +108,7 @@
             font-weight: bold;
         }
         .category-list {
-            background-color: #000;
+            background-color: #003366; /* Dark Blue */
             padding: 10px;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -118,7 +118,7 @@
             padding: 8px 0;
         }
         .category-list li strong {
-            color: #FFD700;
+            color: #FFD700; /* Yellow */
         }
     </style>
 </head>
@@ -133,24 +133,8 @@
         <a href="#services">Services</a>
         <a href="#consultation">Book a Consultation</a>
         <a href="#contact">Contact</a>
-        <a href="#sitemap">Sitemap</a>
         <a href="#subscribe">Subscribe</a>
     </nav>
-
-    <section id="sitemap">
-        <h2>Sitemap</h2>
-        <div class="category-list">
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#process">Process</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#downloads">Downloads</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#client-login">Client Login</a></li>
-            </ul>
-        </div>
-    </section>
 
     <section id="about">
         <h2>About Us</h2>
@@ -236,3 +220,4 @@
     </footer>
 </body>
 </html>
+
