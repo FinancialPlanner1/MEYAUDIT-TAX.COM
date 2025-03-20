@@ -9,30 +9,30 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-color: #ffffff;
-            color: #333;
+            background-color: #f0f0f0; /* Light grey background */
+            color: #333; /* Dark grey text for readability */
         }
         header {
-            background-color: #003366; /* Dark Blue */
-            color: #FFD700; /* Yellow */
+            background-color: #2C3E50; /* Dark Blue */
+            color: #ECF0F1; /* Light grey text */
             padding: 20px;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background-color: #003366; /* Dark Blue */
+            background-color: #34495E; /* Medium Dark Blue */
             padding: 10px;
         }
         nav a {
             margin: 0 15px;
-            color: #ffffff; /* White */
+            color: #ECF0F1; /* Light grey text */
             text-decoration: none;
             font-weight: bold;
             text-transform: uppercase;
         }
         nav a:hover {
-            color: #FFD700; /* Yellow */
+            color: #BDC3C7; /* Light grey for hover */
         }
         section {
             padding: 20px;
@@ -44,8 +44,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h2, h3 {
-            background-color: #003366; /* Dark Blue */
-            color: #FFD700; /* Yellow */
+            background-color: #2C3E50; /* Dark Blue */
+            color: #ECF0F1; /* Light grey */
             padding: 10px;
             margin-top: 20px;
             border-radius: 4px;
@@ -53,7 +53,7 @@
             font-weight: bold;
         }
         footer {
-            background-color: #003366; /* Dark Blue */
+            background-color: #2C3E50; /* Dark Blue */
             color: white;
             text-align: center;
             padding: 10px;
@@ -61,7 +61,7 @@
         }
         footer p.disclaimer {
             font-size: 0.9em;
-            color: #ccc;
+            color: #BDC3C7; /* Light grey */
             margin-top: 10px;
             line-height: 1.5;
         }
@@ -74,19 +74,19 @@
         form input, form textarea {
             margin-bottom: 10px;
             padding: 10px;
-            border: 1px solid #ddd;
+            border: 1px solid #BDC3C7; /* Light grey borders */
             border-radius: 4px;
         }
         form button {
             padding: 10px;
-            background-color: #FFD700; /* Yellow */
+            background-color: #2980B9; /* Blue */
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            color: white;
         }
         form button:hover {
-            background-color: #003366; /* Dark Blue */
-            color: white;
+            background-color: #3498DB; /* Lighter Blue */
         }
         h2, h3, p {
             text-align: left;
@@ -99,8 +99,8 @@
             margin-bottom: 10px;
         }
         .category-header {
-            background-color: #FFD700; /* Yellow */
-            color: #003366; /* Dark Blue */
+            background-color: #BDC3C7; /* Light Grey */
+            color: #2C3E50; /* Dark Blue */
             padding: 10px;
             margin-top: 20px;
             border-radius: 4px;
@@ -108,17 +108,17 @@
             font-weight: bold;
         }
         .category-list {
-            background-color: #003366; /* Dark Blue */
+            background-color: #ECF0F1; /* Light grey background for lists */
             padding: 10px;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            color: white;
+            color: #333; /* Dark text for readability */
         }
         .category-list li {
             padding: 8px 0;
         }
         .category-list li strong {
-            color: #FFD700; /* Yellow */
+            color: #2980B9; /* Blue for strong text */
         }
     </style>
 </head>
@@ -220,4 +220,3 @@
     </footer>
 </body>
 </html>
-
