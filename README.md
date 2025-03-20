@@ -148,10 +148,3 @@
     </footer>
 </body>
 </html>
-
-    <footer>
-        <p>© 2025 MYAUDIT. All rights reserved.</p>
-        <p>Tax Disclaimer: The information provided by MYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
-    </footer>
-</body>
-</html>
