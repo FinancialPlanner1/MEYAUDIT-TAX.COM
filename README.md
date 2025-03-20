@@ -46,6 +46,12 @@
         }
         h2, h3 {
             color: #FFD700;
+            background-color: #000;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: bold;
         }
         footer {
             background-color: #000;
@@ -149,7 +155,7 @@
         <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, MYAUDIT has established itself as a leader in the auditing industry, providing tailored solutions to clients across various sectors.</p>
         <p>Our team of certified auditors and financial specialists is dedicated to enhancing your organization's transparency, compliance, and operational efficiency. With a commitment to integrity and excellence, we leverage the latest technologies and best practices to offer precise, comprehensive audit solutions that empower your business.</p>
 
-        <div class="category-header">Our Services:</div>
+        <h2>Our Services</h2>
         <div class="category-list">
             <ul>
                 <li><strong>Financial Audits:</strong> Independent and thorough analysis of financial statements to ensure accuracy, compliance, and reliability.</li>
@@ -160,7 +166,7 @@
             </ul>
         </div>
 
-        <div class="category-header">Why Choose MYAUDIT?</div>
+        <h2>Why Choose MYAUDIT?</h2>
         <div class="category-list">
             <ul>
                 <li><strong>Expertise You Can Trust:</strong> Years of experience delivering high-quality auditing services.</li>
@@ -224,28 +230,4 @@
         <p>3 Cebeni Place, Northcliff Ext 25, 1709</p>
         <p>Phone 1: 011 477 0416</p>
         <p>Phone 2: 082 320 2424</p>
-        <p>Fax: 086 225 4893</p>
-    </section>
-
-    <section id="subscribe">
-        <h2>Subscribe</h2>
-        <form>
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" required>
-
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" name="last-name" required>
-
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required>
-
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>© 2025 MYAUDIT. All rights reserved.</p>
-        <p class="disclaimer">Tax Disclaimer: The information provided by MYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
-    </footer>
-</body>
-</html>
+        <p>Fax: 086 225 489
