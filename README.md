@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -45,8 +44,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h2, h3 {
-            color: #FFD700;
             background-color: #000;
+            color: #FFD700;
             padding: 10px;
             margin-top: 20px;
             border-radius: 4px;
@@ -109,10 +108,11 @@
             font-weight: bold;
         }
         .category-list {
-            background-color: #f7f7f7;
+            background-color: #000;
             padding: 10px;
             border-radius: 4px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: white;
         }
         .category-list li {
             padding: 8px 0;
@@ -139,21 +139,25 @@
 
     <section id="sitemap">
         <h2>Sitemap</h2>
-        <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#process">Process</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#downloads">Downloads</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#client-login">Client Login</a></li>
-        </ul>
+        <div class="category-list">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#downloads">Downloads</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#client-login">Client Login</a></li>
+            </ul>
+        </div>
     </section>
 
     <section id="about">
         <h2>About Us</h2>
-        <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, MYAUDIT has established itself as a leader in the auditing industry, providing tailored solutions to clients across various sectors.</p>
-        <p>Our team of certified auditors and financial specialists is dedicated to enhancing your organization's transparency, compliance, and operational efficiency. With a commitment to integrity and excellence, we leverage the latest technologies and best practices to offer precise, comprehensive audit solutions that empower your business.</p>
+        <div class="category-list">
+            <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, MYAUDIT has established itself as a leader in the auditing industry, providing tailored solutions to clients across various sectors.</p>
+            <p>Our team of certified auditors and financial specialists is dedicated to enhancing your organization's transparency, compliance, and operational efficiency. With a commitment to integrity and excellence, we leverage the latest technologies and best practices to offer precise, comprehensive audit solutions that empower your business.</p>
+        </div>
 
         <h2>Our Services</h2>
         <div class="category-list">
@@ -214,20 +218,21 @@
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@meyaudit.com | Phone: +27 11 123 4567</p>
-        <p>Location: 123 Business Street, Johannesburg, South Africa</p>
-        <p>Additional Contacts:</p>
-        <ul>
-            <li>Phone 1: 011 477 0416</li>
-            <li>Phone 2: 082 320 2424</li>
-            <li>Email: info@taxassist.co.za</li>
-            <li>Business Hours: Mon-Fri 09:00 - 16:00</li>
-        </ul>
+        <div class="category-list">
+            <p>Email: info@meyaudit.com | Phone: +27 11 123 4567</p>
+            <p>Location: 123 Business Street, Johannesburg, South Africa</p>
+            <p>Additional Contacts:</p>
+            <ul>
+                <li>Phone 1: 011 477 0416</li>
+                <li>Phone 2: 082 320 2424</li>
+                <li>Email: info@taxassist.co.za</li>
+                <li>Business Hours: Mon-Fri 09:00 - 16:00</li>
+            </ul>
+        </div>
     </section>
 
-    <section id="get-in-touch">
-        <h2>Get in Touch</h2>
-        <p>3 Cebeni Place, Northcliff Ext 25, 1709</p>
-        <p>Phone 1: 011 477 0416</p>
-        <p>Phone 2: 082 320 2424</p>
-        <p>Fax: 086 225 489
+    <footer>
+        <p>© 2025 MYAUDIT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
