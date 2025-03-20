@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -71,6 +70,10 @@
             background-color: #000;
             color: white;
         }
+        /* Ensure text-align and form responsiveness */
+        h2, h3, p {
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -138,6 +141,13 @@
         <p>Email: info@meyaudit.com | Phone: +27 11 123 4567</p>
         <p>Location: 123 Business Street, Johannesburg, South Africa</p>
     </section>
+
+    <footer>
+        <p>© 2025 MYAUDIT. All rights reserved.</p>
+        <p>Tax Disclaimer: The information provided by MYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
+    </footer>
+</body>
+</html>
 
     <footer>
         <p>© 2025 MYAUDIT. All rights reserved.</p>
