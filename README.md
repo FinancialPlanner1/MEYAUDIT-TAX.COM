@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -87,7 +88,28 @@
 
     <section id="about">
         <h2>About Us</h2>
-        <p>MEYAUDIT is a leading accounting firm providing comprehensive financial solutions including auditing, tax advisory, bookkeeping, and financial consulting. We strive to deliver high-quality services tailored to your needs with professionalism and integrity.</p>
+        <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, MYAUDIT has established itself as a leader in the auditing industry, providing tailored solutions to clients across various sectors.</p>
+        <p>Our team of certified auditors and financial specialists is dedicated to enhancing your organization's transparency, compliance, and operational efficiency. With a commitment to integrity and excellence, we leverage the latest technologies and best practices to offer precise, comprehensive audit solutions that empower your business.</p>
+        
+        <h3>Our Services:</h3>
+        <ul>
+            <li><strong>Financial Audits:</strong> Independent and thorough analysis of financial statements to ensure accuracy, compliance, and reliability.</li>
+            <li><strong>Internal Audits:</strong> Comprehensive assessments of internal controls, risk management processes, and governance frameworks.</li>
+            <li><strong>Compliance Audits:</strong> Ensuring adherence to regulatory requirements and industry-specific standards.</li>
+            <li><strong>Risk Assessment & Management:</strong> Identifying potential financial risks and providing strategic recommendations to mitigate them.</li>
+            <li><strong>Advisory Services:</strong> Expert guidance on optimizing financial reporting, compliance structures, and business processes.</li>
+        </ul>
+
+        <h3>Why Choose MYAUDIT?</h3>
+        <ul>
+            <li><strong>Expertise You Can Trust:</strong> Years of experience delivering high-quality auditing services.</li>
+            <li><strong>Tailored Solutions:</strong> Customized approaches designed to meet your specific needs.</li>
+            <li><strong>Innovative Techniques:</strong> Incorporating cutting-edge methodologies and technology for superior results.</li>
+            <li><strong>Commitment to Integrity:</strong> Upholding the highest standards of professionalism and confidentiality.</li>
+            <li><strong>Proven Track Record:</strong> Successful partnerships with businesses across multiple industries.</li>
+        </ul>
+        
+        <p>At MYAUDIT, we believe that effective auditing is more than just compliance—it's about adding value, building trust, and empowering organizations to make informed decisions.</p>
     </section>
 
     <section id="services">
@@ -118,8 +140,8 @@
     </section>
 
     <footer>
-        <p>© 2025 MEYAUDIT. All rights reserved.</p>
-        <p>Tax Disclaimer: The information provided by MEYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
+        <p>© 2025 MYAUDIT. All rights reserved.</p>
+        <p>Tax Disclaimer: The information provided by MYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
     </footer>
 </body>
 </html>
