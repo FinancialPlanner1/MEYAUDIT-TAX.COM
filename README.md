@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,6 +47,12 @@
             text-align: center;
             padding: 10px;
             margin-top: 20px;
+        }
+        footer p.disclaimer {
+            font-size: 0.9em;
+            color: #ccc;
+            margin-top: 10px;
+            line-height: 1.5;
         }
         form {
             display: flex;
@@ -144,7 +151,7 @@
 
     <footer>
         <p>© 2025 MYAUDIT. All rights reserved.</p>
-        <p>Tax Disclaimer: The information provided by MYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
+        <p class="disclaimer">Tax Disclaimer: The information provided by MYAUDIT is for general guidance only. Consult a professional for specific advice.</p>
     </footer>
 </body>
 </html>
