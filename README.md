@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,6 +80,13 @@
         h2, h3, p {
             text-align: left;
         }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -94,6 +100,8 @@
         <a href="#services">Services</a>
         <a href="#consultation">Book a Consultation</a>
         <a href="#contact">Contact</a>
+        <a href="#sitemap">Sitemap</a>
+        <a href="#subscribe">Subscribe</a>
     </nav>
 
     <section id="about">
@@ -123,12 +131,21 @@
     </section>
 
     <section id="services">
-        <h2>Services</h2>
+        <h2>Our Services</h2>
+        <p>TaxAssist currently offers the following services at the costs stipulated below:</p>
         <ul>
-            <li>Auditing and Assurance</li>
-            <li>Tax Advisory and Compliance</li>
-            <li>Bookkeeping and Accounting</li>
-            <li>Financial Planning and Consulting</li>
+            <li><strong>Individual Basic Income Tax Returns:</strong> R450 (RA & Medical Aid)</li>
+            <li><strong>Individual Advanced Income Tax Returns:</strong> R750 (other income or other expenses)</li>
+            <li><strong>Previous Year Basic Income Tax Returns:</strong> R450</li>
+            <li><strong>Previous Year Advanced Income Tax Returns:</strong> R750</li>
+            <li><strong>Previous Years Investigation Basic Income Tax:</strong> R900 (per tax year)</li>
+            <li><strong>Previous Years Investigation Advanced Income Tax:</strong> R1500 (per tax year)</li>
+            <li><strong>Xero Monthly Accounting Cashbook Version:</strong> R1150 + R450 (per month)</li>
+            <li><strong>Xero Standard Monthly Accounting:</strong> R2300 + R745 (per month) - Includes HubDoc</li>
+            <li><strong>New Company Registration:</strong> R1150 (Includes name reservation, Standard Short MOI, and share certificate)</li>
+            <li><strong>Amend Company Directors Details or Company Details:</strong> R750</li>
+            <li><strong>CIPC Annual Return:</strong> R750 + AR Fee (per financial year)</li>
+            <li><strong>CIPC Beneficial Ownership Register:</strong> R1200</li>
         </ul>
     </section>
 
@@ -147,6 +164,56 @@
         <h2>Contact Us</h2>
         <p>Email: info@meyaudit.com | Phone: +27 11 123 4567</p>
         <p>Location: 123 Business Street, Johannesburg, South Africa</p>
+        <p>Additional Contacts:</p>
+        <ul>
+            <li>Phone 1: 011 477 0416</li>
+            <li>Phone 2: 082 320 2424</li>
+            <li>Email: info@taxassist.co.za</li>
+            <li>Business Hours: Mon-Fri 09:00 - 16:00</li>
+        </ul>
+    </section>
+
+    <section id="change">
+        <h2>Want to Make a Change?</h2>
+        <p>Let's talk.</p>
+        <button>Message Us</button>
+    </section>
+
+    <section id="sitemap">
+        <h2>Sitemap</h2>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#client-login">Client Login</a></li>
+        </ul>
+    </section>
+
+    <section id="get-in-touch">
+        <h2>Get in Touch</h2>
+        <p>3 Cebeni Place, Northcliff Ext 25, 1709</p>
+        <p>Phone 1: 011 477 0416</p>
+        <p>Phone 2: 082 320 2424</p>
+        <p>Fax: 086 225 4893</p>
+    </section>
+
+    <section id="subscribe">
+        <h2>Subscribe</h2>
+        <form>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
