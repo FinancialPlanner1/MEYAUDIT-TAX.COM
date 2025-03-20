@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -104,6 +105,19 @@
         <a href="#subscribe">Subscribe</a>
     </nav>
 
+    <section id="sitemap">
+        <h2>Sitemap</h2>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#client-login">Client Login</a></li>
+        </ul>
+    </section>
+
     <section id="about">
         <h2>About Us</h2>
         <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, MYAUDIT has established itself as a leader in the auditing industry, providing tailored solutions to clients across various sectors.</p>
@@ -170,25 +184,6 @@
             <li>Phone 2: 082 320 2424</li>
             <li>Email: info@taxassist.co.za</li>
             <li>Business Hours: Mon-Fri 09:00 - 16:00</li>
-        </ul>
-    </section>
-
-    <section id="change">
-        <h2>Want to Make a Change?</h2>
-        <p>Let's talk.</p>
-        <button>Message Us</button>
-    </section>
-
-    <section id="sitemap">
-        <h2>Sitemap</h2>
-        <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#process">Process</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#downloads">Downloads</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#client-login">Client Login</a></li>
         </ul>
     </section>
 
