@@ -29,21 +29,21 @@
         }
 
         h1, h2 {
-            color: #005B9F;
+            color: #003366; /* Dark blue */
             transition: color 0.3s ease;
         }
         .highlight {
-            background-color: #e6f2ff;
+            background-color: #e0e0e0; /* Light grey */
             padding: 10px;
             border-radius: 5px;
-            border: 1px solid #005B9F;
+            border: 1px solid #003366; /* Dark blue */
         }
         .highlight h2 {
-            color: #00407a;
+            color: #002a4a; /* Slightly darker blue */
         }
 
         .contact-info {
-            background: #005B9F;
+            background: #003366; /* Dark blue */
             color: white;
             padding: 15px;
             text-align: center;
@@ -74,14 +74,14 @@
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #005B9F;
+            background-color: #003366; /* Dark blue */
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 20px;
         }
         .button:hover {
-            background-color: #00407a;
+            background-color: #002a4a; /* Slightly darker blue */
         }
         footer {
             text-align: center;
@@ -94,7 +94,7 @@
             color: #777;
         }
         .meeting-form {
-            background: #e6f2ff;
+            background: #e0e0e0; /* Light grey */
             padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
@@ -110,7 +110,7 @@
             border-radius: 4px;
         }
         button {
-            background: #005B9F;
+            background: #003366; /* Dark blue */
             color: white;
             padding: 10px;
             border: none;
@@ -119,7 +119,7 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #00407a;
+            background: #002a4a; /* Slightly darker blue */
         }
         /* Slow Motion Scroll */
         html {
@@ -140,7 +140,7 @@
         }
 
         .sitemap-section h2 {
-            color: #005B9F;
+            color: #003366; /* Dark blue */
             margin-bottom: 10px;
             text-align: center;
         }
@@ -161,12 +161,12 @@
         .sitemap-list a {
             text-decoration: none;
             font-size: 16px;
-            color: #005B9F;
+            color: #003366; /* Dark blue */
             transition: color 0.3s ease;
         }
 
         .sitemap-list a:hover {
-            color: #00407a;
+            color: #002a4a; /* Slightly darker blue */
         }
 
     </style>
@@ -227,8 +227,8 @@
 
         <!-- Connect with Us Section -->
         <div class="section" id="connect-with-us">
-            <h2>Connect with Us</h2>
-            <p><a href="https://www.linkedin.com/company/meyauditdemo" target="_blank" class="button">Follow Us on LinkedIn</a></p>
+            <h2>Connect with Us on WhatsApp</h2>
+            <p><a href="https://wa.me/27111234567" target="_blank" class="button">Chat with Us on WhatsApp</a></p>
         </div>
 
         <!-- Site Map Section -->
