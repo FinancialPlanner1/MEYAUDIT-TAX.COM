@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #f3f3f3; /* Soft grey background */
             margin: 0;
             padding: 0;
             color: #333;
@@ -16,7 +16,7 @@
             margin: 65px auto;
             background: #fff;
             padding: 20px;
-            box-shadow: 0px 0px 10px #aaa;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             text-align: center;
             opacity: 0;
@@ -29,21 +29,21 @@
         }
 
         h1, h2 {
-            color: #003366; /* Dark blue */
+            color: #004D40; /* Teal color */
             transition: color 0.3s ease;
         }
         .highlight {
-            background-color: #e0e0e0; /* Light grey */
+            background-color: #e8f5e9; /* Light green */
             padding: 10px;
             border-radius: 5px;
-            border: 1px solid #003366; /* Dark blue */
+            border: 1px solid #004D40; /* Teal border */
         }
         .highlight h2 {
-            color: #002a4a; /* Slightly darker blue */
+            color: #00332D; /* Darker teal */
         }
 
         .contact-info {
-            background: #003366; /* Dark blue */
+            background: #004D40; /* Teal */
             color: white;
             padding: 15px;
             text-align: center;
@@ -74,18 +74,18 @@
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #003366; /* Dark blue */
+            background-color: #004D40; /* Teal */
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 20px;
         }
         .button:hover {
-            background-color: #002a4a; /* Slightly darker blue */
+            background-color: #00332D; /* Darker teal */
         }
         footer {
             text-align: center;
-            background-color: #f4f4f9;
+            background-color: #f3f3f3; /* Soft grey */
             padding: 10px;
             margin-top: 40px;
             font-size: 0.9em;
@@ -94,7 +94,7 @@
             color: #777;
         }
         .meeting-form {
-            background: #e0e0e0; /* Light grey */
+            background: #e8f5e9; /* Light green */
             padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
@@ -110,7 +110,7 @@
             border-radius: 4px;
         }
         button {
-            background: #003366; /* Dark blue */
+            background: #004D40; /* Teal */
             color: white;
             padding: 10px;
             border: none;
@@ -119,9 +119,9 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #002a4a; /* Slightly darker blue */
+            background: #00332D; /* Darker teal */
         }
-        /* Slow Motion Scroll */
+        /* Smooth Scroll */
         html {
             scroll-behavior: smooth;
         }
@@ -130,17 +130,8 @@
             margin-top: 50px;
         }
 
-        /* Site Map Styling */
-        .sitemap-section {
-            margin-top: 50px;
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
         .sitemap-section h2 {
-            color: #003366; /* Dark blue */
+            color: #004D40; /* Teal */
             margin-bottom: 10px;
             text-align: center;
         }
@@ -161,12 +152,12 @@
         .sitemap-list a {
             text-decoration: none;
             font-size: 16px;
-            color: #003366; /* Dark blue */
+            color: #004D40; /* Teal */
             transition: color 0.3s ease;
         }
 
         .sitemap-list a:hover {
-            color: #002a4a; /* Slightly darker blue */
+            color: #00332D; /* Darker teal */
         }
 
     </style>
