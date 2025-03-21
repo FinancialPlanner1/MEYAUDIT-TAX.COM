@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f3f3f3; /* Soft grey background */
+            background-color: #f5f5f5; /* Light grey background */
             margin: 0;
             padding: 0;
             color: #333;
@@ -29,21 +29,21 @@
         }
 
         h1, h2 {
-            color: #004D40; /* Teal color */
+            color: #4682b4; /* Soft blue color */
             transition: color 0.3s ease;
         }
         .highlight {
-            background-color: #e8f5e9; /* Light green */
+            background-color: #e9ecef; /* Light grey background */
             padding: 10px;
             border-radius: 5px;
-            border: 1px solid #004D40; /* Teal border */
+            border: 1px solid #4682b4; /* Soft blue border */
         }
         .highlight h2 {
-            color: #00332D; /* Darker teal */
+            color: #5f6368; /* Dark grey */
         }
 
         .contact-info {
-            background: #004D40; /* Teal */
+            background: #4682b4; /* Soft blue */
             color: white;
             padding: 15px;
             text-align: center;
@@ -74,18 +74,18 @@
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #004D40; /* Teal */
+            background-color: #4682b4; /* Soft blue */
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 20px;
         }
         .button:hover {
-            background-color: #00332D; /* Darker teal */
+            background-color: #4169e1; /* Slightly darker blue */
         }
         footer {
             text-align: center;
-            background-color: #f3f3f3; /* Soft grey */
+            background-color: #f5f5f5;
             padding: 10px;
             margin-top: 40px;
             font-size: 0.9em;
@@ -94,7 +94,7 @@
             color: #777;
         }
         .meeting-form {
-            background: #e8f5e9; /* Light green */
+            background: #e9ecef; /* Light grey */
             padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
@@ -110,7 +110,7 @@
             border-radius: 4px;
         }
         button {
-            background: #004D40; /* Teal */
+            background: #4682b4; /* Soft blue */
             color: white;
             padding: 10px;
             border: none;
@@ -119,45 +119,11 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #00332D; /* Darker teal */
+            background: #4169e1; /* Slightly darker blue */
         }
         /* Smooth Scroll */
         html {
             scroll-behavior: smooth;
-        }
-
-        .sitemap-section {
-            margin-top: 50px;
-        }
-
-        .sitemap-section h2 {
-            color: #004D40; /* Teal */
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        .sitemap-list {
-            text-align: center;
-        }
-
-        .sitemap-list ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .sitemap-list li {
-            margin-bottom: 8px;
-        }
-
-        .sitemap-list a {
-            text-decoration: none;
-            font-size: 16px;
-            color: #004D40; /* Teal */
-            transition: color 0.3s ease;
-        }
-
-        .sitemap-list a:hover {
-            color: #00332D; /* Darker teal */
         }
 
     </style>
@@ -170,26 +136,27 @@
 
         <!-- Contact Info Section -->
         <div class="contact-info">
-            <p><strong>Contact Us</strong></p>
+            <p><strong>Contact Me</strong></p>
             <p>Email: <a href="mailto:info@meyauditdemo.com">info@meyauditdemo.com</a></p>
-            <p>Phone: <a href="tel:+27111234567">+27 11 123 4567</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
         </div>
 
         <!-- About Us Section -->
         <div class="section highlight" id="about-us">
             <h2>About Us</h2>
-            <p>MEYAUDITDEMO is your reliable partner for comprehensive auditing and advisory services. With our expert team of professionals, we provide tailored financial solutions to individuals and businesses, ensuring financial transparency, compliance, and operational efficiency.</p>
+            <p>At MEYAUDITDEMO, we specialize in providing professional accounting services, helping businesses and individuals optimize their financial management with personalized solutions. Our expert team is dedicated to delivering reliable advice and exceptional service.</p>
         </div>
 
         <!-- Services Offered Section -->
         <div class="section highlight" id="services-offered">
             <h2>Services Offered</h2>
             <ul>
-                <li>Financial Audits</li>
-                <li>Internal Audits</li>
-                <li>Compliance Audits</li>
-                <li>Risk Assessment and Management</li>
-                <li>Advisory Services</li>
+                <li>Financial Statement Preparation</li>
+                <li>Tax Planning and Advisory</li>
+                <li>Payroll Services</li>
+                <li>Management Reporting</li>
+                <li>Business Consulting</li>
+                <li>Tax Returns and Compliance</li>
             </ul>
         </div>
 
@@ -200,58 +167,31 @@
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="Name" required>
 
-                <label for="surname">Surname:</label>
-                <input type="text" id="surname" name="Surname" required>
-
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="Email" required>
 
-                <label for="contact">Contact Number:</label>
-                <input type="tel" id="contact" name="Contact" required>
+                <label for="contact">Phone Number:</label>
+                <input type="tel" id="contact" name="Phone" required>
 
-                <label for="message">Additional Details (Optional):</label>
+                <label for="message">Message (Optional):</label>
                 <textarea id="message" name="Message" rows="4"></textarea>
 
-                <button type="submit">Send Meeting Request</button>
+                <button type="submit">Submit Meeting Request</button>
             </form>
         </div>
 
-        <!-- Connect with Us Section -->
-        <div class="section" id="connect-with-us">
-            <h2>Connect with Us on WhatsApp</h2>
-            <p><a href="https://wa.me/27111234567" target="_blank" class="button">Chat with Us on WhatsApp</a></p>
-        </div>
-
-        <!-- Site Map Section -->
-        <div class="sitemap-section">
-            <h2>Site Map</h2>
-            <div class="sitemap-list">
-                <ul>
-                    <li><a href="#about-us" class="smooth-scroll">About Us</a></li>
-                    <li><a href="#services-offered" class="smooth-scroll">Services Offered</a></li>
-                    <li><a href="#connect-with-us" class="smooth-scroll">Connect with Us</a></li>
-                </ul>
-            </div>
+        <!-- Connect with Me Section -->
+        <div class="section" id="connect-with-me">
+            <h2>Connect with Me</h2>
+            <p><a href="https://wa.me/1234567890" target="_blank" class="button">Connect on WhatsApp</a></p>
         </div>
 
     </div>
 
     <footer>
         <p>&copy; 2025 MEYAUDITDEMO. All rights reserved.</p>
-        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional auditing or financial advice. Always consult a certified auditor or financial planner for personalized advice.</p>
+        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional financial advice. Always consult a qualified financial planner for personalized advice.</p>
     </footer>
 
-    <script>
-        // Smooth Scroll for Site Map links
-        document.querySelectorAll('.smooth-scroll').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
