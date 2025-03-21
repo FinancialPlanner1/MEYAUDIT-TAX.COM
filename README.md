@@ -238,18 +238,6 @@
         </div>
 
     </div>
-<section id="sitemap">
-    <h2>Site Map</h2>
-    <div class="category-list">
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#consultation">Book a Consultation</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="#subscribe">Subscribe</a></li>
-        </ul>
-    </div>
-</section>
 
     <footer>
         <p>&copy; 2025 MEYAUDITDEMO. All rights reserved.</p>
