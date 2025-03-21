@@ -2,221 +2,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEYAUDIT - Your Trusted Accounting Partner</title>
+    <title>MEYAUDITDEMO - Your Trusted Accounting Partner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            background-color: #f0f0f0; /* Light grey background */
-            color: #333; /* Dark grey text for readability */
+            color: #333;
         }
-        header {
-            background-color: #2C3E50; /* Dark Blue */
-            color: #ECF0F1; /* Light grey text */
+        .container {
+            width: 90%;
+            margin: 65px auto;
+            background: #fff;
             padding: 20px;
+            box-shadow: 0px 0px 10px #aaa;
+            border-radius: 8px;
             text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
         }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #34495E; /* Medium Dark Blue */
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        h1, h2 {
+            color: #005B9F;
+            transition: color 0.3s ease;
+        }
+        .highlight {
+            background-color: #e6f2ff;
             padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #005B9F;
         }
-        nav a {
-            margin: 0 15px;
-            color: #ECF0F1; /* Light grey text */
+        .highlight h2 {
+            color: #00407a;
+        }
+
+        .contact-info {
+            background: #005B9F;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .contact-info a {
+            color: white;
             text-decoration: none;
             font-weight: bold;
-            text-transform: uppercase;
         }
-        nav a:hover {
-            color: #BDC3C7; /* Light grey for hover */
+        .section {
+            margin-bottom: 20px;
+            text-align: left;
+            transition: transform 1s ease-out;
         }
-        section {
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-            background: white;
+
+        .section:hover {
+            transform: scale(1.02);
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section li {
+            margin-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #005B9F;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
             margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h2, h3 {
-            background-color: #2C3E50; /* Dark Blue */
-            color: #ECF0F1; /* Light grey */
-            padding: 10px;
-            margin-top: 20px;
-            border-radius: 4px;
-            text-transform: uppercase;
-            font-weight: bold;
+        .button:hover {
+            background-color: #00407a;
         }
         footer {
-            background-color: #2C3E50; /* Dark Blue */
-            color: white;
             text-align: center;
+            background-color: #f4f4f9;
             padding: 10px;
-            margin-top: 20px;
-        }
-        footer p.disclaimer {
+            margin-top: 40px;
             font-size: 0.9em;
-            color: #BDC3C7; /* Light grey */
-            margin-top: 10px;
-            line-height: 1.5;
         }
-        form {
-            display: flex;
-            flex-direction: column;
-            max-width: 400px;
-            margin: auto;
+        .disclaimer {
+            color: #777;
         }
-        form input, form textarea {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #BDC3C7; /* Light grey borders */
-            border-radius: 4px;
-        }
-        form button {
-            padding: 10px;
-            background-color: #2980B9; /* Blue */
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            color: white;
-        }
-        form button:hover {
-            background-color: #3498DB; /* Lighter Blue */
-        }
-        h2, h3, p {
-            text-align: left;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .category-header {
-            background-color: #BDC3C7; /* Light Grey */
-            color: #2C3E50; /* Dark Blue */
-            padding: 10px;
+        .meeting-form {
+            background: #e6f2ff;
+            padding: 15px;
+            border-radius: 5px;
             margin-top: 20px;
-            border-radius: 4px;
-            text-transform: uppercase;
+        }
+        label {
             font-weight: bold;
         }
-        .category-list {
-            background-color: #ECF0F1; /* Light grey background for lists */
-            padding: 10px;
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
             border-radius: 4px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            color: #333; /* Dark text for readability */
         }
-        .category-list li {
-            padding: 8px 0;
+        button {
+            background: #005B9F;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
         }
-        .category-list li strong {
-            color: #2980B9; /* Blue for strong text */
+        button:hover {
+            background: #00407a;
         }
+        /* Slow Motion Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .sitemap-section {
+            margin-top: 50px;
+        }
+
+        /* Site Map Styling */
+        .sitemap-section {
+            margin-top: 50px;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sitemap-section h2 {
+            color: #005B9F;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .sitemap-list {
+            text-align: center;
+        }
+
+        .sitemap-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sitemap-list li {
+            margin-bottom: 8px;
+        }
+
+        .sitemap-list a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #005B9F;
+            transition: color 0.3s ease;
+        }
+
+        .sitemap-list a:hover {
+            color: #00407a;
+        }
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>MEYAUDIT</h1>
-        <p>Your Trusted Accounting Partner</p>
-    </header>
+    <div class="container">
+        <h1>MEYAUDITDEMO</h1>
+        <h2>Your Trusted Accounting Partner</h2>
+        <hr>
 
-    <nav>
-        <a href="#about">About Us</a>
-        <a href="#services">Services</a>
-        <a href="#consultation">Book a Consultation</a>
-        <a href="#contact">Contact</a>
-        <a href="#subscribe">Subscribe</a>
-    </nav>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <div class="category-list">
-            <p>Welcome to MYAUDIT, your trusted partner in delivering reliable, accurate, and insightful auditing and advisory services. Founded in 2025, MYAUDIT has established itself as a leader in the auditing industry, providing tailored solutions to clients across various sectors.</p>
-            <p>Our team of certified auditors and financial specialists is dedicated to enhancing your organization's transparency, compliance, and operational efficiency. With a commitment to integrity and excellence, we leverage the latest technologies and best practices to offer precise, comprehensive audit solutions that empower your business.</p>
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <p><strong>Contact Us</strong></p>
+            <p>Email: <a href="mailto:info@meyauditdemo.com">info@meyauditdemo.com</a></p>
+            <p>Phone: <a href="tel:+27111234567">+27 11 123 4567</a></p>
         </div>
 
-        <h2>Our Services</h2>
-        <div class="category-list">
+        <!-- About Us Section -->
+        <div class="section highlight" id="about-us">
+            <h2>About Us</h2>
+            <p>MEYAUDITDEMO is your reliable partner for comprehensive auditing and advisory services. With our expert team of professionals, we provide tailored financial solutions to individuals and businesses, ensuring financial transparency, compliance, and operational efficiency.</p>
+        </div>
+
+        <!-- Services Offered Section -->
+        <div class="section highlight" id="services-offered">
+            <h2>Services Offered</h2>
             <ul>
-                <li><strong>Financial Audits:</strong> Independent and thorough analysis of financial statements to ensure accuracy, compliance, and reliability.</li>
-                <li><strong>Internal Audits:</strong> Comprehensive assessments of internal controls, risk management processes, and governance frameworks.</li>
-                <li><strong>Compliance Audits:</strong> Ensuring adherence to regulatory requirements and industry-specific standards.</li>
-                <li><strong>Risk Assessment & Management:</strong> Identifying potential financial risks and providing strategic recommendations to mitigate them.</li>
-                <li><strong>Advisory Services:</strong> Expert guidance on optimizing financial reporting, compliance structures, and business processes.</li>
+                <li>Financial Audits</li>
+                <li>Internal Audits</li>
+                <li>Compliance Audits</li>
+                <li>Risk Assessment and Management</li>
+                <li>Advisory Services</li>
             </ul>
         </div>
 
-        <h2>Why Choose MYAUDIT?</h2>
-        <div class="category-list">
-            <ul>
-                <li><strong>Expertise You Can Trust:</strong> Years of experience delivering high-quality auditing services.</li>
-                <li><strong>Tailored Solutions:</strong> Customized approaches designed to meet your specific needs.</li>
-                <li><strong>Innovative Techniques:</strong> Incorporating cutting-edge methodologies and technology for superior results.</li>
-                <li><strong>Commitment to Integrity:</strong> Upholding the highest standards of professionalism and confidentiality.</li>
-                <li><strong>Proven Track Record:</strong> Successful partnerships with businesses across multiple industries.</li>
-            </ul>
+        <!-- Book a Meeting Form -->
+        <div class="section meeting-form">
+            <h2>Book a Meeting</h2>
+            <form action="mailto:info@meyauditdemo.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required>
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="Surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="Contact" required>
+
+                <label for="message">Additional Details (Optional):</label>
+                <textarea id="message" name="Message" rows="4"></textarea>
+
+                <button type="submit">Send Meeting Request</button>
+            </form>
         </div>
 
-        <p>At MYAUDIT, we believe that effective auditing is more than just compliance—it's about adding value, building trust, and empowering organizations to make informed decisions.</p>
-    </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>TaxAssist currently offers the following services at the costs stipulated below:</p>
-        <div class="category-list">
-            <ul>
-                <li><strong>Individual Basic Income Tax Returns:</strong> R450 (RA & Medical Aid)</li>
-                <li><strong>Individual Advanced Income Tax Returns:</strong> R750 (other income or other expenses)</li>
-                <li><strong>Previous Year Basic Income Tax Returns:</strong> R450</li>
-                <li><strong>Previous Year Advanced Income Tax Returns:</strong> R750</li>
-                <li><strong>Previous Years Investigation Basic Income Tax:</strong> R900 (per tax year)</li>
-                <li><strong>Previous Years Investigation Advanced Income Tax:</strong> R1500 (per tax year)</li>
-                <li><strong>Xero Monthly Accounting Cashbook Version:</strong> R1150 + R450 (per month)</li>
-                <li><strong>Xero Standard Monthly Accounting:</strong> R2300 + R745 (per month) - Includes HubDoc</li>
-                <li><strong>New Company Registration:</strong> R1150 (Includes name reservation, Standard Short MOI, and share certificate)</li>
-                <li><strong>Amend Company Directors Details or Company Details:</strong> R750</li>
-                <li><strong>CIPC Annual Return:</strong> R750 + AR Fee (per financial year)</li>
-                <li><strong>CIPC Beneficial Ownership Register:</strong> R1200</li>
-            </ul>
+        <!-- Connect with Us Section -->
+        <div class="section" id="connect-with-us">
+            <h2>Connect with Us</h2>
+            <p><a href="https://www.linkedin.com/company/meyauditdemo" target="_blank" class="button">Follow Us on LinkedIn</a></p>
         </div>
-    </section>
 
-    <section id="consultation">
-        <h2>Book a Consultation</h2>
-        <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="tel" name="phone" placeholder="Your Phone Number" required>
-            <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <div class="category-list">
-            <p>Email: info@meyaudit.com | Phone: +27 11 123 4567</p>
-            <p>Location: 123 Business Street, Johannesburg, South Africa</p>
-            <p>Additional Contacts:</p>
-            <ul>
-                <li>Phone 1: 011 477 0416</li>
-                <li>Phone 2: 082 320 2424</li>
-                <li>Email: info@taxassist.co.za</li>
-                <li>Business Hours: Mon-Fri 09:00 - 16:00</li>
-            </ul>
+        <!-- Site Map Section -->
+        <div class="sitemap-section">
+            <h2>Site Map</h2>
+            <div class="sitemap-list">
+                <ul>
+                    <li><a href="#about-us" class="smooth-scroll">About Us</a></li>
+                    <li><a href="#services-offered" class="smooth-scroll">Services Offered</a></li>
+                    <li><a href="#connect-with-us" class="smooth-scroll">Connect with Us</a></li>
+                </ul>
+            </div>
         </div>
-    </section>
+
+    </div>
 
     <footer>
-        <p>© 2025 MYAUDIT. All rights reserved.</p>
+        <p>&copy; 2025 MEYAUDITDEMO. All rights reserved.</p>
+        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional auditing or financial advice. Always consult a certified auditor or financial planner for personalized advice.</p>
     </footer>
+
+    <script>
+        // Smooth Scroll for Site Map links
+        document.querySelectorAll('.smooth-scroll').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
