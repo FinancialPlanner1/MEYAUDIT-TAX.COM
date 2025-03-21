@@ -126,6 +126,44 @@
             scroll-behavior: smooth;
         }
 
+        .sitemap-section {
+            margin-top: 50px;
+            background-color: #e9ecef; /* Light grey */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sitemap-section h2 {
+            color: #4682b4; /* Soft blue */
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .sitemap-list {
+            text-align: center;
+        }
+
+        .sitemap-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sitemap-list li {
+            margin-bottom: 8px;
+        }
+
+        .sitemap-list a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #4682b4; /* Soft blue */
+            transition: color 0.3s ease;
+        }
+
+        .sitemap-list a:hover {
+            color: #4169e1; /* Slightly darker blue */
+        }
+
     </style>
 </head>
 <body>
@@ -184,6 +222,19 @@
         <div class="section" id="connect-with-me">
             <h2>Connect with Me</h2>
             <p><a href="https://wa.me/1234567890" target="_blank" class="button">Connect on WhatsApp</a></p>
+        </div>
+
+        <!-- Site Map Section -->
+        <div class="sitemap-section">
+            <h2>Site Map</h2>
+            <div class="sitemap-list">
+                <ul>
+                    <li><a href="#about-us" class="smooth-scroll">About Us</a></li>
+                    <li><a href="#services-offered" class="smooth-scroll">Services Offered</a></li>
+                    <li><a href="#connect-with-me" class="smooth-scroll">Connect with Me</a></li>
+                    <li><a href="#book-a-meeting" class="smooth-scroll">Book a Meeting</a></li>
+                </ul>
+            </div>
         </div>
 
     </div>
